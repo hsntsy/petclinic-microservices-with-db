@@ -1,11 +1,3 @@
-git checkout dev
-git branch feature/msp-22
-git checkout feature/msp-22
-```
-
-- Prepare a Jenkinsfile for `petclinic-weekly-qa` builds and save it as `jenkinsfile-petclinic-weekly-qa` under `jenkins` folder.
-
-```groovy
 pipeline {
     agent any
     environment {
